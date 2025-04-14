@@ -17,7 +17,7 @@ Use the `go install` command to install to the `$GOPATH/bin` directory:
 
 ```bash
 # Clone the repository from GitHub
-git clone https://github.com/ThinkInAIXYZ/go-mcp.git
+git clone https://github.com/ropon/go-mcp.git
 cd go-mcp/examples/mysql_mcp_server
 
 # Install MySQL MCP server

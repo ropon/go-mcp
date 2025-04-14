@@ -6,7 +6,7 @@ import (
 
 	"github.com/bytedance/sonic"
 
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
+	"github.com/ropon/go-mcp/protocol"
 )
 
 func (server *Server) sendMsgWithRequest(ctx context.Context, sessionID string, requestID protocol.RequestID,

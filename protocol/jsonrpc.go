@@ -3,7 +3,7 @@ package protocol
 import (
 	"encoding/json"
 
-	"github.com/ThinkInAIXYZ/go-mcp/pkg"
+	"github.com/ropon/go-mcp/pkg"
 )
 
 const jsonrpcVersion = "2.0"

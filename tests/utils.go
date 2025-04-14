@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThinkInAIXYZ/go-mcp/client"
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
-	"github.com/ThinkInAIXYZ/go-mcp/transport"
+	"github.com/ropon/go-mcp/client"
+	"github.com/ropon/go-mcp/protocol"
+	"github.com/ropon/go-mcp/transport"
 )
 
 func test(t *testing.T, runServer func() error, transportClient transport.ClientTransport) {

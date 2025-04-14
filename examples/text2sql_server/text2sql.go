@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
 	"github.com/cloudwego/eino-ext/components/model/openai"
+	"github.com/ropon/go-mcp/protocol"
 	"github.com/wangle201210/text2sql"
 	"github.com/wangle201210/text2sql/eino"
 )

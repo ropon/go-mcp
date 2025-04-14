@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
-	"github.com/ThinkInAIXYZ/go-mcp/server"
-	"github.com/ThinkInAIXYZ/go-mcp/transport"
+	"github.com/ropon/go-mcp/protocol"
+	"github.com/ropon/go-mcp/server"
+	"github.com/ropon/go-mcp/transport"
 )
 
 type currentTimeReq struct {

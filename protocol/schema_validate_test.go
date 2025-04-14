@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
+	"github.com/ropon/go-mcp/protocol"
 )
 
 func Test_Validate(t *testing.T) {

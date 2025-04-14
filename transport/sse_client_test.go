@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/ThinkInAIXYZ/go-mcp/pkg"
+	"github.com/ropon/go-mcp/pkg"
 )
 
 func Test_sseClientTransport_handleSSEEvent(t1 *testing.T) {

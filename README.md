@@ -3,10 +3,10 @@
 
 
 <p align="center">
-  <a href="https://pkg.go.dev/github.com/ThinkInAIXYZ/go-mcp"><img src="https://pkg.go.dev/badge/github.com/ThinkInAIXYZ/go-mcp.svg" alt="Go Reference"></a>
-  <a href="https://goreportcard.com/report/github.com/ThinkInAIXYZ/go-mcp"><img src="https://goreportcard.com/badge/github.com/ThinkInAIXYZ/go-mcp" alt="Go Report Card"></a>
-  <a href="https://github.com/ThinkInAIXYZ/go-mcp/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ThinkInAIXYZ/go-mcp" alt="License"></a>
-  <a href="https://github.com/ThinkInAIXYZ/go-mcp/releases"><img src="https://img.shields.io/github/v/release/ThinkInAIXYZ/go-mcp" alt="Release"></a>
+  <a href="https://pkg.go.dev/github.com/ropon/go-mcp"><img src="https://pkg.go.dev/badge/github.com/ropon/go-mcp.svg" alt="Go Reference"></a>
+  <a href="https://goreportcard.com/report/github.com/ropon/go-mcp"><img src="https://goreportcard.com/badge/github.com/ropon/go-mcp" alt="Go Report Card"></a>
+  <a href="https://github.com/ropon/go-mcp/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ropon/go-mcp" alt="License"></a>
+  <a href="https://github.com/ropon/go-mcp/releases"><img src="https://img.shields.io/github/v/release/ropon/go-mcp" alt="Release"></a>
 </p>
 
 <p align="center">
@@ -56,7 +56,7 @@ Go-MCP SDK has significant advantages in the current technical environment and h
 Installing the Go-MCP SDK is very simple, just use Go's standard package management tool `go get` command:
 
 ```bash
-go get github.com/ThinkInAIXYZ/go-mcp
+go get github.com/ropon/go-mcp
 ```
 
 This will download and install the SDK and all its dependencies. Go-MCP requires Go 1.18 or higher to ensure support for the latest language features and standard library.
@@ -77,9 +77,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ThinkInAIXYZ/go-mcp/client"
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
-	"github.com/ThinkInAIXYZ/go-mcp/transport"
+	"github.com/ropon/go-mcp/client"
+	"github.com/ropon/go-mcp/protocol"
+	"github.com/ropon/go-mcp/transport"
 )
 
 func main() {
@@ -141,9 +141,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
-	"github.com/ThinkInAIXYZ/go-mcp/server"
-	"github.com/ThinkInAIXYZ/go-mcp/transport"
+	"github.com/ropon/go-mcp/protocol"
+	"github.com/ropon/go-mcp/server"
+	"github.com/ropon/go-mcp/transport"
 )
 
 type currentTimeReq struct {
@@ -346,7 +346,7 @@ Through this carefully designed architecture, Go-MCP provides developers with a 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ThinkInAIXYZ/go-mcp&type=Date)](https://www.star-history.com/#ThinkInAIXYZ/go-mcp&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ropon/go-mcp&type=Date)](https://www.star-history.com/#ropon/go-mcp&Date)
 
 
 ## 🤝 Contributing
@@ -383,7 +383,7 @@ This project is licensed under the [MIT License](LICENSE). The MIT License is a 
 
 For questions, suggestions, or issues, please contact us through:
 
-- **GitHub Issues**: Create an issue on the [project repository](https://github.com/ThinkInAIXYZ/go-mcp/issues)
+- **GitHub Issues**: Create an issue on the [project repository](https://github.com/ropon/go-mcp/issues)
 - **WeChat**: Scan the QR code below to join our GO-MCP user group
   ![img.png](docs/images/wechat_qrcode.png)
 
@@ -393,6 +393,6 @@ We welcome any form of feedback and contribution and are committed to building a
 
 Thank you for your contribution to Go-MCP!
 
-<a href="https://github.com/ThinkInAIXYZ/go-mcp/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ThinkInAIXYZ/go-mcp" alt="Contributors" />
+<a href="https://github.com/ropon/go-mcp/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ropon/go-mcp" alt="Contributors" />
 </a>

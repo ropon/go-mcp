@@ -11,7 +11,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/ThinkInAIXYZ/go-mcp/pkg"
+	"github.com/ropon/go-mcp/pkg"
 )
 
 type SSEServerTransportOption func(*sseServerTransport)
@@ -207,7 +207,13 @@ func (t *sseServerTransport) handleSSE(w http.ResponseWriter, r *http.Request) {
 
 	// Create an SSE connection
 	sessionChan := make(chan []byte, 64)
-	sessionID := uuid.New().String()
+	//sessionID := uuid.New().String()
+
+	//mcphubs inject sessionId
+	sessionID, ok := r.Context().Value("sessionId").(string)
+	if !ok || sessionID == "" {
+		sessionID = uuid.New().String()
+	}
 	t.sessionStore.Store(sessionID, sessionChan)
 	defer t.sessionStore.Delete(sessionID)
 

@@ -3,10 +3,10 @@
 
 
 <p align="center">
-  <a href="https://pkg.go.dev/github.com/ThinkInAIXYZ/go-mcp"><img src="https://pkg.go.dev/badge/github.com/ThinkInAIXYZ/go-mcp.svg" alt="Go Reference"></a>
-  <a href="https://goreportcard.com/report/github.com/ThinkInAIXYZ/go-mcp"><img src="https://goreportcard.com/badge/github.com/ThinkInAIXYZ/go-mcp" alt="Go Report Card"></a>
-  <a href="https://github.com/ThinkInAIXYZ/go-mcp/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ThinkInAIXYZ/go-mcp" alt="License"></a>
-  <a href="https://github.com/ThinkInAIXYZ/go-mcp/releases"><img src="https://img.shields.io/github/v/release/ThinkInAIXYZ/go-mcp" alt="Release"></a>
+  <a href="https://pkg.go.dev/github.com/ropon/go-mcp"><img src="https://pkg.go.dev/badge/github.com/ropon/go-mcp.svg" alt="Go Reference"></a>
+  <a href="https://goreportcard.com/report/github.com/ropon/go-mcp"><img src="https://goreportcard.com/badge/github.com/ropon/go-mcp" alt="Go Report Card"></a>
+  <a href="https://github.com/ropon/go-mcp/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ropon/go-mcp" alt="License"></a>
+  <a href="https://github.com/ropon/go-mcp/releases"><img src="https://img.shields.io/github/v/release/ropon/go-mcp" alt="Release"></a>
 </p>
 
 ## 📖 概述
@@ -52,7 +52,7 @@ Go-MCP SDK 在当前技术环境中具有显著的优势，并且在未来有广
 安装 Go-MCP SDK 非常简单，只需使用 Go 的标准包管理工具 `go get` 命令：
 
 ```bash
-go get github.com/ThinkInAIXYZ/go-mcp
+go get github.com/ropon/go-mcp
 ```
 
 这将下载并安装 SDK 及其所有依赖项。Go-MCP 要求 Go 1.18 或更高版本，以确保对最新语言特性和标准库的支持。
@@ -73,9 +73,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ThinkInAIXYZ/go-mcp/client"
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
-	"github.com/ThinkInAIXYZ/go-mcp/transport"
+	"github.com/ropon/go-mcp/client"
+	"github.com/ropon/go-mcp/protocol"
+	"github.com/ropon/go-mcp/transport"
 )
 
 func main() {
@@ -137,9 +137,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
-	"github.com/ThinkInAIXYZ/go-mcp/server"
-	"github.com/ThinkInAIXYZ/go-mcp/transport"
+	"github.com/ropon/go-mcp/protocol"
+	"github.com/ropon/go-mcp/server"
+	"github.com/ropon/go-mcp/transport"
 )
 
 type currentTimeReq struct {
@@ -342,7 +342,7 @@ Go-MCP 的设计遵循以下核心原则：
 
 ## Star 数量
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ThinkInAIXYZ/go-mcp&type=Date)](https://www.star-history.com/#ThinkInAIXYZ/go-mcp&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ropon/go-mcp&type=Date)](https://www.star-history.com/#ropon/go-mcp&Date)
 
 ## 🤝 贡献
 
@@ -378,7 +378,7 @@ Go-MCP 的设计遵循以下核心原则：
 
 如有问题、建议或问题，请通过以下方式联系我们：
 
-- **GitHub Issues**：在 [项目仓库](https://github.com/ThinkInAIXYZ/go-mcp/issues) 上创建一个 issue
+- **GitHub Issues**：在 [项目仓库](https://github.com/ropon/go-mcp/issues) 上创建一个 issue
 - **微信**: 扫描下面的二维码加入我们的 GO-MCP 用户群
   ![img.png](docs/images/wechat_qrcode.png)
 
@@ -388,6 +388,6 @@ Go-MCP 的设计遵循以下核心原则：
 
 感谢您对 Go-MCP 作出的贡献！
 
-<a href="https://github.com/ThinkInAIXYZ/go-mcp/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ThinkInAIXYZ/go-mcp" alt="Contributors" />
+<a href="https://github.com/ropon/go-mcp/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ropon/go-mcp" alt="Contributors" />
 </a>

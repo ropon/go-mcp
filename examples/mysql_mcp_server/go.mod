@@ -1,9 +1,9 @@
-module github.com/ThinkInAIXYZ/go-mcp/examples/mysql_mcp_server
+module github.com/ropon/go-mcp/examples/mysql_mcp_server
 
 go 1.18
 
 require (
-	github.com/ThinkInAIXYZ/go-mcp v0.0.0
+	github.com/ropon/go-mcp v0.0.0
 	github.com/go-sql-driver/mysql v1.7.1
 )
 
@@ -22,4 +22,4 @@ require (
 	golang.org/x/arch v0.0.0-20210923205945-b76863e36670 // indirect
 )
 
-replace github.com/ThinkInAIXYZ/go-mcp => ../../
+replace github.com/ropon/go-mcp => ../../

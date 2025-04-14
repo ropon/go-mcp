@@ -1,11 +1,11 @@
-module github.com/ThinkInAIXYZ/go-mcp/examples/text2sql_server
+module github.com/ropon/go-mcp/examples/text2sql_server
 
 go 1.23.1
 
-replace github.com/ThinkInAIXYZ/go-mcp => ../../
+replace github.com/ropon/go-mcp => ../../
 
 require (
-	github.com/ThinkInAIXYZ/go-mcp v0.1.0
+	github.com/ropon/go-mcp v0.1.0
 	github.com/cloudwego/eino-ext/components/model/openai v0.0.0-20250403035559-e5332ba7144a
 	github.com/wangle201210/text2sql v0.1.0
 )

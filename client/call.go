@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/ThinkInAIXYZ/go-mcp/pkg"
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
+	"github.com/ropon/go-mcp/pkg"
+	"github.com/ropon/go-mcp/protocol"
 )
 
 func (client *Client) initialization(ctx context.Context, request *protocol.InitializeRequest) (*protocol.InitializeResult, error) {

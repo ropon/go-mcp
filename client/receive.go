@@ -7,8 +7,8 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/ThinkInAIXYZ/go-mcp/pkg"
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
+	"github.com/ropon/go-mcp/pkg"
+	"github.com/ropon/go-mcp/protocol"
 )
 
 func (client *Client) receive(_ context.Context, msg []byte) error {

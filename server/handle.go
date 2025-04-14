@@ -6,8 +6,8 @@ import (
 
 	"github.com/yosida95/uritemplate/v3"
 
-	"github.com/ThinkInAIXYZ/go-mcp/pkg"
-	"github.com/ThinkInAIXYZ/go-mcp/protocol"
+	"github.com/ropon/go-mcp/pkg"
+	"github.com/ropon/go-mcp/protocol"
 )
 
 func (server *Server) handleRequestWithPing() (*protocol.PingResult, error) {
